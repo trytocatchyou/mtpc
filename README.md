@@ -18,6 +18,14 @@ mtpc load -k proj_a -r https://github.com/a/b.git -n my_project -b master
 -n [required] project name
 -b [optional] which git branch to download , default value is main
 
+template-config.json file staged in
+
+windows: C:\Users\{YouUserName}\.mtpc
+macos: /Users/{YourUsername}/.mtpc
+linux: /home/{YourUsername}/.mtpc
+
+You can edit the configuration file directly
+
 ```
 
 ## init your project by clone template
