@@ -1,0 +1,43 @@
+{
+  "name": "mtpc",
+  "version": "1.1.1",
+  "description": "前端项目脚手架",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "wen.miao",
+  "bin": {
+    "mtpc": "./bin/mtpc.js"
+  },
+  "scripts": {
+    "init": "node ./bin/mtpc.js init",
+    "load": "node ./bin/mtpc.js load",
+    "help": "node ./bin/mtpc.js help",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "postinstall": "node ./bin/mtpc.js load -k awesome-vue -r https://github.com/vuejs/awesome-vue.git -b master -n awesome-vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MProfessor/mtpc.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/MProfessor/mtpc/issues"
+  },
+  "homepage": "https://github.com/MProfessor/mtpc#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "mock-fs": "^5.1.2",
+    "nock": "^13.2.1"
+  }
+}

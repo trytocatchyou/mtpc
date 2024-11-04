@@ -1,0 +1,7 @@
+{
+  "awesome-vue": {
+    "name": "awesome-vue",
+    "repo": "https://github.com/vuejs/awesome-vue.git",
+    "branch": "master"
+  }
+}
