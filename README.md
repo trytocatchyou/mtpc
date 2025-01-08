@@ -28,7 +28,7 @@ You can edit the configuration file directly
 
 ```
 
-## init your project by clone template
+## create new project by config
 ```
 
 mtpc init
